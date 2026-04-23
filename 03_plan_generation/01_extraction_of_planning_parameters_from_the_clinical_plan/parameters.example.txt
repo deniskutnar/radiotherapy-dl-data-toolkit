@@ -1,0 +1,16 @@
+SYNTHETIC_0001
+1.2.840.synthetic.image.series
+1.2.840.synthetic.image.study
+1.2.840.synthetic.struct.uid
+1.2.840.synthetic.struct.series
+1.2.840.synthetic.struct.study
+0.0
+0.0
+0.0
+17
+100
+1.8
+100
+PTV_MAIN, Lower, 30 Gy, 100, 120
+HEART, Upper, 12 Gy, 40, 90
+LUNG_BOTH, Upper, 10 Gy, 50, 80

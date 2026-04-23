@@ -1,0 +1,16 @@
+{
+  "source": {
+    "ae_title": "SOURCE_AE",
+    "host": "source.host.local",
+    "port": 104
+  },
+  "destination": {
+    "ae_title": "RESEARCH_DEST_AE",
+    "host": "research.host.local",
+    "port": 104
+  },
+  "local": {
+    "ae_title": "LOCAL_CALLING_AE",
+    "port": 11113
+  }
+}

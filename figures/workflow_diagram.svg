@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430">
+  <style>
+    .title { font: 700 28px Arial, sans-serif; fill: #1f2937; }
+    .box { fill: #f8fafc; stroke: #94a3b8; stroke-width: 2; rx: 18; ry: 18; }
+    .head { font: 700 18px Arial, sans-serif; fill: #0f172a; }
+    .sub { font: 14px Arial, sans-serif; fill: #334155; }
+    .arrow { stroke: #64748b; stroke-width: 3; fill: none; marker-end: url(#arrowhead); }
+    .small { font: 13px Arial, sans-serif; fill: #475569; }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="45" class="title">Scripting workflow for retrospective lymphoma RT research</text>
+
+  <rect x="40" y="90" width="180" height="120" class="box"/>
+  <text x="60" y="125" class="head">1. Cohort selection</text>
+  <text x="60" y="152" class="sub">ARIA query</text>
+  <text x="60" y="174" class="sub">Filter approvals, dates,</text>
+  <text x="60" y="196" class="sub">plan prefixes, machines</text>
+
+  <rect x="250" y="90" width="180" height="120" class="box"/>
+  <text x="270" y="125" class="head">2. DICOM transfer</text>
+  <text x="270" y="152" class="sub">C-FIND / C-MOVE</text>
+  <text x="270" y="174" class="sub">CT, RTSTRUCT,</text>
+  <text x="270" y="196" class="sub">RTPLAN, RTDOSE</text>
+
+  <rect x="460" y="90" width="180" height="120" class="box"/>
+  <text x="480" y="125" class="head">3. Parameter extraction</text>
+  <text x="480" y="152" class="sub">UIDs, isocentre,</text>
+  <text x="480" y="174" class="sub">prescription, objectives</text>
+  <text x="480" y="196" class="sub">parameter text files</text>
+
+  <rect x="670" y="90" width="180" height="120" class="box"/>
+  <text x="690" y="125" class="head">4. Baseline rebuild</text>
+  <text x="690" y="152" class="sub">research course + plan</text>
+  <text x="690" y="174" class="sub">copied structures,</text>
+  <text x="690" y="196" class="sub">IMRT optimisation</text>
+
+  <rect x="880" y="90" width="180" height="120" class="box"/>
+  <text x="900" y="125" class="head">5. Research export</text>
+  <text x="900" y="152" class="sub">CT, dose, structures,</text>
+  <text x="900" y="174" class="sub">metadata for ML</text>
+  <text x="900" y="196" class="sub">and analysis</text>
+
+  <path d="M220 150 L250 150" class="arrow"/>
+  <path d="M430 150 L460 150" class="arrow"/>
+  <path d="M640 150 L670 150" class="arrow"/>
+  <path d="M850 150 L880 150" class="arrow"/>
+
+  <rect x="250" y="265" width="600" height="110" class="box"/>
+  <text x="275" y="300" class="head">Input → output view used in the chapter</text>
+  <text x="275" y="328" class="small">Input: retrospective clinical planning data + ESAPI access + research TPS instance</text>
+  <text x="275" y="351" class="small">Output: reproducible research baseline plans and structured data products for downstream modelling</text>
+</svg>

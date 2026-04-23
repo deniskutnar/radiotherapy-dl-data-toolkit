@@ -1,0 +1,29 @@
+# Lymphoma RT Scripting Toolkit - environment notes and Python dependencies
+#
+# This repository depends on a research Eclipse / ESAPI setup.
+# It is not intended to run on a standard workstation without Varian software access.
+#
+# Practical prerequisites
+# -----------------------
+# 1. A Windows research instance with Eclipse installed.
+# 2. Access to the Eclipse Scripting API (ESAPI).
+# 3. A writable ESAPI scripting licence for scripts that create or modify plans.
+# 4. Visual Studio / Visual Studio Code for editing and launching C# ESAPI scripts.
+# 5. Python configured for PyESAPI when running the Python parts of the workflow.
+# 6. DICOM connectivity configured locally (AE titles, hostnames, ports).
+# 7. ARIA / SQL access configured locally for cohort selection and UID lookup.
+#
+# Notes
+# -----
+# - Public placeholders must be replaced with local credentials, paths, AE titles, and server names.
+# - For write operations in ESAPI, the script attribute must allow writable access.
+# - In practice, these scripts were run from a research instance where Eclipse, ESAPI, and licences were already configured.
+# - More information can be added in your GitHub description or section READMEs if you want external users to follow the setup step by step.
+#
+# Python dependencies used across the public examples
+numpy
+pandas
+matplotlib
+scipy
+SimpleITK
+pyodbc

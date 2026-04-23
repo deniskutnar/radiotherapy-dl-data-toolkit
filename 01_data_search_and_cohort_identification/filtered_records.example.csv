@@ -1,0 +1,3 @@
+patient_id,plan_id,course_id,status
+SYNTHETIC_0001,PLAN_A,COURSE_01,Completed
+SYNTHETIC_0002,PLAN_B,COURSE_02,TreatApproval

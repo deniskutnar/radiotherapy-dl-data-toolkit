@@ -1,0 +1,15 @@
+research_course_id: C99_RESEARCH
+plan_id_suffix: _BASELINE
+beam_configuration:
+  machine_id: TrueBeam_HD120
+  energy: 6X
+  dose_rate: 600
+  technique: STATIC
+  gantry_angles: [0, 24, 48, 72, 96, 120, 144, 168, 192, 216, 240, 264, 288, 312, 336]
+
+optimization:
+  iterations: 2500
+  mlc_id: "1513"
+  optimizer_model: accPO
+  dose_model: accAcurosXB
+  leaf_motion_model: "Varian Leaf Motion Calculator [18.0.0]"
