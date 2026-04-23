@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="figures/radiotherapy_dl_data_toolkit_logo.png" alt="Radiotherapy DL Data Toolkit logo" width="380">
+  <img src="figures/radiotherapy_dl_data_toolkit_logo.png" alt="Radiotherapy DL Data Toolkit logo" width="580">
 </p>
 
 <h1 align="center">Radiotherapy DL Data Toolkit</h1>
